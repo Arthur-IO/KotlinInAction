@@ -1,4 +1,4 @@
-package main.EmbracingKotlin
+package main.KotlinBasics
 
 // This file demonstrates the usage of String templates
 

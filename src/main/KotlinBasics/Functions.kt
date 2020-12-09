@@ -1,4 +1,4 @@
-package main.EmbracingKotlin
+package main.KotlinBasics
 
 // This file demonstrates my first successful usage of a top-level Kotlin function
 

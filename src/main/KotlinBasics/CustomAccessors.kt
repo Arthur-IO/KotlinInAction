@@ -1,4 +1,4 @@
-package main.EmbracingKotlin
+package main.KotlinBasics
 
 import java.util.Random
 
