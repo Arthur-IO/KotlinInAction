@@ -23,22 +23,3 @@ fun main() {
 fun printList() {
     println(list)
 }
-
-/**
- * A function that can be called on an array to join the elements as a string
- * in a special way
- */
-fun <T> joinToString(
-    collection: Collection<T>,
-    separator: String = " ",
-    prefix: String = "",
-    postfix: String = ""
-): String {
-    val result = StringBuilder(prefix)
-    for ((index, element) in collection.withIndex()) {
-        if (index > 0) result.append(separator)
-        result.append(element)
-    }
-    result.append(postfix)
-    return result.toString()
-}
