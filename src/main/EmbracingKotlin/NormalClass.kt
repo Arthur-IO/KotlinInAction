@@ -4,6 +4,10 @@ fun main(args: Array<String>) {
     val aNormalClass = NormalClass("A normal class", 52)
     println(aNormalClass.parameter1)
     println(aNormalClass.parameter2)
+
+    aNormalClass.parameter2 = 42
+    println(aNormalClass.parameter2)
+
     aNormalClass.foo()
 }
 
