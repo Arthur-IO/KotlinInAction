@@ -11,7 +11,7 @@ fun main() {
         anArr.add(i)
 
     // Create a joint string of the collection
-    val jointString = joinToString(anArr, ", ", "(", ")")
+    val jointString = anArr.joinToString(", ", "(", ")")
 
     // Print its value
     println(jointString)

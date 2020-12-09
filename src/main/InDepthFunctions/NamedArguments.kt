@@ -4,10 +4,10 @@ package main.InDepthFunctions
 
 fun main() {
     // Using named attributes
-    val jointString = joinToString(collection = list, separator = ",", prefix = "(", postfix = ")")
+    val jointString = list.joinToString(separator = ",", prefix = "(", postfix = ")")
     println(jointString)
 
     // Using only one attribute as the others have a default value
-    val anotherJointString = joinToString(collection = list)
+    val anotherJointString = list.joinToString()
     println(anotherJointString)
 }
