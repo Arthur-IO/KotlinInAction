@@ -8,14 +8,13 @@ package main.InDepthFunctions
  * A function that can be called on an array to join the elements as a string
  * in a special way
  */
-fun <T> joinToString(
-    collection: Collection<T>,
+fun <T> Collection<T>.joinToString(
     separator: String = " ",
     prefix: String = "",
     postfix: String = ""
 ): String {
     val result = StringBuilder(prefix)
-    for ((index, element) in collection.withIndex()) {
+    for ((index, element) in this.withIndex()) {
         if (index > 0) result.append(separator)
         result.append(element)
     }
