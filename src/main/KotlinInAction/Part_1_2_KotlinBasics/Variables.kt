@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 // This file demonstrates the declaration of variables
 

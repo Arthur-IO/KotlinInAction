@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 // This file demonstrates my first successful usage of a top-level Kotlin function
 

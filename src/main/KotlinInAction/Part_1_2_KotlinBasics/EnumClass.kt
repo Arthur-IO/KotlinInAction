@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 fun main(args: Array<String>) {
     println(ColorWithProperties.RED.rgb())

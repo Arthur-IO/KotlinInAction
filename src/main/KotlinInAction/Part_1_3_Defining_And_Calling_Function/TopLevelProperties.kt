@@ -1,6 +1,6 @@
 @file:JvmName("Operations")
 
-package main.InDepthFunctions
+package main.KotlinInAction.Part_1_3_Defining_And_Calling_Function
 
 // This file demonstrates the use of a top-level property in Kotlin
 

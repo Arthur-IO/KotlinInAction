@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 import com.sun.javaws.exceptions.InvalidArgumentException
 import java.lang.IllegalArgumentException

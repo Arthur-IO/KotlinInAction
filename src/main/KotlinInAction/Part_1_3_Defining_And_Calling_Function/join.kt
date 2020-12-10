@@ -1,6 +1,6 @@
 @file:JvmName("StringFunctions")
 
-package main.InDepthFunctions
+package main.KotlinInAction.Part_1_3_Defining_And_Calling_Function
 
 // This file demonstrates the use of the @file:JvmName annotation as well as a top-level function
 

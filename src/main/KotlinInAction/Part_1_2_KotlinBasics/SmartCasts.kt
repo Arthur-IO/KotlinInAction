@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 /**
  * This interface is a demonstration of Kotlin interfaces

@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 fun main(args: Array<String>) {
     val aNormalClass = NormalClass("A normal class", 52)

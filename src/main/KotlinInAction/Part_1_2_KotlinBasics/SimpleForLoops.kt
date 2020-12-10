@@ -1,4 +1,4 @@
-package main.KotlinBasics
+package main.KotlinInAction.Part_1_2_KotlinBasics
 
 // This file demonstrates the usage of while & for loops as well as implements the fizz-buzz game
 

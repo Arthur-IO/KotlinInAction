@@ -1,4 +1,4 @@
-package main.InDepthFunctions
+package main.KotlinInAction.Part_1_3_Defining_And_Calling_Function
 
 // This file serves as a demonstration for various [Collection] implemenetations
 
