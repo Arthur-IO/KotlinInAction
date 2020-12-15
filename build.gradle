@@ -1,0 +1,25 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+allprojects {
+    group 'kotlin-in-action'
+    version '1.0.0-SNAPSHOT'
+
+    repositories {
+        mavenLocal()
+        maven { url "https://repo.maven.apache.org/maven2" }
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.10'
+        implementation 'org.jetbrains.kotlin:kotlin-reflect:1.4.10'
+        implementation 'com.github.yole:jkid:ec66c0b13c'
+    }
+
+    sourceSets {
+        main.kotlin.srcDirs += 'src'
+    }
+
+}
