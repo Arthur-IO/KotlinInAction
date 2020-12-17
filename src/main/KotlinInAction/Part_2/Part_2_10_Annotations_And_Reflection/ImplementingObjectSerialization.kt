@@ -79,7 +79,7 @@ fun StringBuilder.saveProperty(prop: KProperty1<Any, *>, obj: Any) {
     append(": ")
     val value = prop.get(obj)
     val jsonValue = prop.getCustomFormatter()?.formatValue(value) ?: value
-    prepValue(jsonValue)
+    prepV(jsonValue)
 }
 
 /**
