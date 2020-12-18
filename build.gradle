@@ -11,14 +11,16 @@ allprojects {
         maven { url "https://repo.maven.apache.org/maven2" }
         maven { url 'https://jitpack.io' }
         maven { url 'https://dl.bintray.com/kotlin/kotlinx/' }
+        maven { url 'https://dl.bintray.com/kotlin/exposed/' }
     }
 
     dependencies {
         implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.10'
         implementation 'org.jetbrains.kotlin:kotlin-reflect:1.4.10'
-        implementation 'com.github.yole:jkid:ec66c0b13c'
+        implementation 'org.jetbrains.exposed:exposed:0.17.7'
         implementation 'org.jetbrains.kotlinx:kotlinx-html-jvm:0.7.2'
         implementation 'io.kotest:kotest-assertions-core-jvm:4.3.2'
+        implementation 'com.github.yole:jkid:ec66c0b13c'
     }
 
     sourceSets {
